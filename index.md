@@ -17,7 +17,7 @@ Monopoly Stock Exchange, described by [boardgamegeek.com](https://boardgamegeek.
 
 Monopoly Stock Exchange is a boardgame accompanied with a small computer (displayed [here](https://boardgamegeek.com/image/133900/monopoly-stock-exchange)) which holds a lot of information and has to be passed around since all players want to see the status of their properties. Although this computer is not difficult to use, it fails to keep all the players informed about the game status. Entering changes and trading takes just a litle too long and therefore slows the game.
 
-Reverse engineering the little thing is the first (and most challenging) part of this problem. This page is used to explain the problem and provide information to those who can help solve this little mystery.
+Reverse engineering the thing is the first (and most challenging) part of this problem. This page is used to explain the problem and provide information to those who can help solve this little mystery.
 
 # The game
 
@@ -42,18 +42,33 @@ The computer keeps track of all the shares, buildings and rent per player. By de
 
 Figure out how the computer calculates the price per share and the rent to pay.
 
-In order to do this, we need to know the variables and a lot of data (both are available below). Then it should be possible to reverse engineer the magic formula and we can create our own application. Instead of this little computer, each player can use a phone or tablet with a much better overview and easier control.
- 
-# The problem
+In order to do this, we need to know the variables and a lot of data (available below). Then it should be possible to reverse engineer the magic formula and we can create our own application. Instead of this little computer, each player can use a phone or tablet with a much better overview and easier control.
 
+# What we do know
 
+## Facts:
 
-# What we know
+- Shares can be divided up to 6 players, but the amount of shares per player does not influence the value of the share. So when 6 shares are owned by 2 players, it doesn't matter if one player has 5 or 3 (and the other player 1 or also 3): the price per share is the same. Both the total amount of shares sold and the amount of players that own shares (of the same property) do influence the price though.
 
-We found another github project called the "[MSE-Compute-Emulator](https://github.com/BenDutton/MSE-Compute-Emulator)" who tried to solve the same formula. It's a good start, but not complete.
+## Data:
+
+An overview of the companies and their values is available [here](https://warendorff.github.io/moose/data/companies.md).
+
+Sheets of raw data we extracted from the computer. On top there is a table representing the data-structure. For example, if we want to know the value per share of the company nr 1 with 2 buildings when 7 shares are owned by 4 people, we look (here)[https://warendorff.github.io/moose/data/1.md] and find a value of 47.
+
+- [Company 1](https://warendorff.github.io/moose/data/1.md)
+- [Company 1 (with a monopoly)](https://warendorff.github.io/moose/data/1mp.md)
+- [Company 6](https://warendorff.github.io/moose/data/6.md)
+- [Company 10](https://warendorff.github.io/moose/data/10.md)
+- [Company 13](https://warendorff.github.io/moose/data/13.md)
+- [Company 16](https://warendorff.github.io/moose/data/16.md)
+- [Company 19](https://warendorff.github.io/moose/data/19.md)
+- [Company 22](https://warendorff.github.io/moose/data/22.md)
 
 # How to help
 
 If you know the formula or have suggestion, please [create an issue](https://github.com/warendorff/moose/issues).
+
+We found another github project called the "[MSE-Compute-Emulator](https://github.com/BenDutton/MSE-Compute-Emulator)" who tried to solve the same formula. It's a good start, but not complete. Thanks for pointing in the right direction though!
 
 Of course, the resulting application will be available on github too.
