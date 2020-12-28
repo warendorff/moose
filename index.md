@@ -13,6 +13,10 @@ Monopoly Stock Exchange, described by [boardgamegeek.com](https://boardgamegeek.
 
 ---
 
+# Update dec 2020
+
+Found it! [See here](https://warendorff.github.io/moose/data/result.md)
+
 # About
 
 Monopoly Stock Exchange is a boardgame accompanied with a small computer (displayed [here](https://boardgamegeek.com/image/133900/monopoly-stock-exchange)) which holds a lot of information and has to be passed around since all players want to see the status of their properties. Although this computer is not difficult to use, it fails to keep all the players informed about the game status. Entering changes and trading takes just a litle too long and therefore slows the game.
