@@ -15,7 +15,7 @@ Monopoly Stock Exchange, described by [boardgamegeek.com](https://boardgamegeek.
 
 # Update dec 2020
 
-Found it! [See here](https://warendorff.github.io/moose/data/result.md)
+Found it! [See here](https://warendorff.github.io/moose/data/result.html)
 
 # About
 
