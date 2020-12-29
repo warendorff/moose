@@ -56,18 +56,18 @@ In order to do this, we need to know the variables and a lot of data (available 
 
 ## Data:
 
-An overview of the companies and their values is available [here](https://warendorff.github.io/moose/data/companies.md).
+An overview of the companies and their values is available [here](https://warendorff.github.io/moose/data/companies.html).
 
-Sheets of raw data we extracted from the computer. On top there is a table representing the data-structure. For example, if we want to know the value per share of the company nr 1 with 2 buildings when 7 shares are owned by 4 people, we look (here)[https://warendorff.github.io/moose/data/1.md] and find a value of 47.
+Sheets of raw data we extracted from the computer. On top there is a table representing the data-structure. For example, if we want to know the value per share of the company nr 1 with 2 buildings when 7 shares are owned by 4 people, we look (here)[https://warendorff.github.io/moose/data/1.html] and find a value of 47.
 
-- [Company 1](https://warendorff.github.io/moose/data/1.md)
-- [Company 1 (with a monopoly)](https://warendorff.github.io/moose/data/1mp.md)
-- [Company 6](https://warendorff.github.io/moose/data/6.md)
-- [Company 10](https://warendorff.github.io/moose/data/10.md)
-- [Company 13](https://warendorff.github.io/moose/data/13.md)
-- [Company 16](https://warendorff.github.io/moose/data/16.md)
-- [Company 19](https://warendorff.github.io/moose/data/19.md)
-- [Company 22](https://warendorff.github.io/moose/data/22.md)
+- [Company 1](https://warendorff.github.io/moose/data/1.html)
+- [Company 1 (with a monopoly)](https://warendorff.github.io/moose/data/1mp.html)
+- [Company 6](https://warendorff.github.io/moose/data/6.html)
+- [Company 10](https://warendorff.github.io/moose/data/10.html)
+- [Company 13](https://warendorff.github.io/moose/data/13.html)
+- [Company 16](https://warendorff.github.io/moose/data/16.html)
+- [Company 19](https://warendorff.github.io/moose/data/19.html)
+- [Company 22](https://warendorff.github.io/moose/data/22.html)
 
 # How to help
 
